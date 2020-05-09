@@ -1,15 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*----VARIABLES----*/
+
+:root {
+    /*Colores*/
+--green-color: #7acc2d;  
+--white-color: white;
+--black-color: #313337; 
+    /*Tipografía*/
+--normal: 12px;
+    /*Espaciado*/
+--space: 10px;
+    /* Box-shadow */
+--box: 0px 0 2px 1px #e6e5e9;
+
+}
+
+
+/*----VARIABLES----*/
+
+
+
 html, body {
     margin: 0;
     padding: 0;
-    font-size: 12px;
-    font-family: 'Helvetica';
-    
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
 }
 nav {
     display: flex;
-    background-color: #7acc2d;
-    padding: 10px;
-    color: white;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -21,11 +43,11 @@ nav li {
     list-style: none;
 }
 nav li a {
-    color: gray;
+    color: var(--black-color);
     text-decoration: none;
 }
 nav li a:hover {
-    color: white;
+    color: var(--white-color);
 }
 /* ============ */
 /* Main section */
@@ -43,27 +65,58 @@ nav li a:hover {
     display: flex;
 }
 .product {
-    padding: 10px;
+    padding: var(--space);
     margin-top: -240px;
 }
 .product .content {
-    background-color: white;
+    background-color: var(--white-color);
     padding: 20px;
-    box-shadow: 0 0 1px #c1bcbc;
+    box-shadow: var(--box);
 }
 .img_content {
     text-align: center;
 }
 .main_button {
-    background-color: #7acc2d;
+    background-color: var(--green-color);
     width: 100%;
-    padding: 10px;
-    font-size: 12px;
-    color: white;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
     border: 0;
     cursor: pointer;
     border-radius: 2px;
 }
 .main_button:hover {
     background-color: #5e9e22;
+}
+.details_products {
+    display: flex;
+    background-position: center;
+    padding: 20px;
+    
+}
+.productos {
+    padding: 20px;
+}
+.productos .img_productos {
+    background-color: var(--white-color);
+    padding: 20px;
+}
+.img_productos {
+    text-align: center;
+}
+.menciones {
+    display: flex;
+    background-position: center;
+    padding: 20px;
+}
+.img_menciones {
+    padding: 10px;
+}
+.menciones .img_menciones {
+    background-color: var(--white-color);
+    padding: 20px;
+}
+.img_menciones {
+    text-align: center;
 }
