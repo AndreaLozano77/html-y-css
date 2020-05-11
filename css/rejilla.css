@@ -43,3 +43,120 @@
 .col-12 {
     width: 100%;
 }
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    .row {
+        display: inherit;
+    }
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    width: 100%;
+}
+}
+
+
+
+/* 
+Código CSS
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    
+}*/
+
+
+/*sistemad de 12 columnas*/
+/*.col-1 { width:  8.333333333% }
+.col-2 { width: 16.666666666% }
+.col-3 { width: 24.999999999% }
+.col-4 { width: 33.333333333% }
+.col-5 { width: 41.666666666% }
+.col-6 { width: 49.999999999% }
+.col-7 { width: 58.333333333% }
+.col-8 { width: 66.666666666% }
+.col-9 { width: 74.9999999999% }
+.col-10{ width: 84.333333333% }
+.col-11{ width: 92.66666666% }
+.col-12{ width: 100% } 
+
+.col-1,.col-2 ,.col-3 ,.col-4 ,.col-5 ,
+.col-6 ,.col-7 ,.col-8 ,.col-9 ,.col-10,.col-11,.col-12 {
+    padding: 5px;
+    border: 1px solid;
+} */
+
+/* Código html */
+/*
+<main class="container">
+        <divclass="row">
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+          <divclass="col-1">hola</div>
+         </div>
+        <divclass="row">
+          <divclass="col-2">hola</div>
+          <divclass="col-2">hola</div>
+          <divclass="col-2">hola</div>
+          <divclass="col-2">hola</div>
+          <divclass="col-2">hola</div>
+          <divclass="col-2">hola</div>
+          
+         </div>
+        <divclass="row">
+          <divclass="col-3">hola</div>
+          <divclass="col-3">hola</div>
+          <divclass="col-3">hola</div>
+          <divclass="col-3">hola</div>
+         </div><divclass="row">
+          <divclass="col-4">hola</div>
+          <divclass="col-4">hola</div>
+          <divclass="col-4">hola</div>
+         </div><divclass="row">
+          <divclass="col-5">hola 5</div>
+          <divclass="col-5">hola 5</div>
+          <divclass="col-2"> 2 columnas</div>
+         </div>
+        <divclass="row">
+          <divclass="col-6"> 6 agrupadas</div>
+          <divclass="col-6">6 agrupadas</div>
+        </div>
+        <divclass="row">
+          <divclass="col-7"> 7 agrupadas</div>
+          <divclass="col-5"> 5 agrupadas</div>
+        </div>
+        <divclass="row">
+          <divclass="col-8">8 columnas agrupadas</div>
+          <divclass="col-4">4 columnas agrupadas</div>
+        </div>
+        <divclass="row">
+          <divclass="col-9">9 columnas agrupadas</div>
+          <divclass="col-3">3 columnas agrupadas</div>
+        </div>
+        <divclass="row">
+          <divclass="col-10"> 10 columnas agrupadas</div>
+          <divclass="col-2"> 2 columnas agrupadas</div>
+        </div>
+        <divclass="row">
+          <divclass="col-11">11 columnas agrupadas</div>
+          <divclass="col-1">1 columna</div>
+        </div>
+        <divclass="row">
+          <divclass="col-12">12 columnas agrupadas</div>
+        </div>
+        
+        <divclass="row" >
+        
+        </div>
+    </main>*/
