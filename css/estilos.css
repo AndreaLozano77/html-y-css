@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-/*----VARIABLES----*/
-
+/* ================================= */
+/*    VARIABLES */
+/* ================================= */
 :root {
     /*Colores*/
 --green-color: #7acc2d;  
@@ -15,9 +16,9 @@
 --box: 0px 0 2px 1px #e6e5e9;
 
 }
-
-
-/*----VARIABLES----*/
+/* ================================= */
+/*    VARIABLES */
+/* ================================= */
 
 
 
@@ -27,6 +28,10 @@ html, body {
     font-size: var(--normal);
     font-family: 'Open Sans', sans-serif;
 }
+
+/* ================================= */
+/*     NAV */
+/* ================================= */
 nav {
     display: flex;
     background-color: var(--green-color);
@@ -49,13 +54,16 @@ nav li a {
 nav li a:hover {
     color: var(--white-color);
 }
-/* ============ */
-/* Main section */
-/* ============ */
+/* ================================= */
+/*      MAIN-SECTION */
+/* ================================= */
 .main_section {
     padding: 6%;
     text-align: center;
 }
+/* ==================================
+        PRODUCTOS
+   ================================== */
 .products {
     background-image: url("../images/curve.png");
     max-height: 50px;
@@ -105,6 +113,15 @@ nav li a:hover {
 .img_productos {
     text-align: center;
 }
+
+/* ================================= */
+/*    MENCIONES */
+/* ================================= */
+
+.subtitle {
+    font-size: 24px;
+    padding: 50px 0 50px 600px;
+}
 .menciones {
     display: flex;
     background-position: center;
@@ -119,4 +136,31 @@ nav li a:hover {
 }
 .img_menciones {
     text-align: center;
+}
+
+/* ================================= */
+/*    MÓDULO PAGO */
+/* ================================= */
+.modulo_pago {
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+.modulo_pago_images {
+    max-width: 150px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+/* ================================= */
+/*    FOOTER */
+/* ================================= */
+footer {
+    display: flex;
+    font-size: var(--normal);
+    color: var(--white-color);
+    background: #3f3f3f;
+    padding: 15px;
+    justify-content: space-between;
 }

@@ -52,7 +52,7 @@ nav li a:hover {
 
 .container {
     display: grid;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
 }
 .titulo {
@@ -91,5 +91,14 @@ nav li a:hover {
 
 .content {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    font-size: var(--normal);
+    color: var(--white-color);
+    background: #3f3f3f;
+    padding: 15px;
+    justify-content: space-between;
 }
 
