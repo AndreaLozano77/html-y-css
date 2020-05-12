@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*----VARIABLES----*/
+
+:root {
+    /*Colores*/
+--green-color: #7acc2d;  
+--white-color: white;
+--black-color: #313337; 
+    /*Tipografía*/
+--normal: 12px;
+    /*Espaciado*/
+--space: 10px;
+    /* Box-shadow */
+--box: 0px 0 2px 1px #e6e5e9;
+
+}
+
+
+/*----VARIABLES----*/
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+nav li a:hover {
+    color: var(--white-color);
+}
+
+.container {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+}
+.titulo {
+    padding: 7% 0;
+}
+
+.productos {
+    padding: 80px;
+}
+
+.row {
+    display: flex;
+}
+.description {
+    margin-top: 50px;
+}
+
+.col-1 { width:  8.333333333% }
+.col-2 { width: 16.666666666% }
+.col-3 { width: 24.999999999% }
+.col-4 { width: 33.333333333% }
+.col-5 { width: 41.666666666% }
+.col-6 { width: 49.999999999% }
+.col-7 { width: 58.333333333% }
+.col-8 { width: 66.666666666% }
+.col-9 { width: 74.9999999999%}
+.col-10{ width: 84.333333333% }
+.col-11{ width: 92.66666666% }
+.col-12{ width: 99.99999999% } 
+
+.col-1, .col-2, .col-3, .col-4, .col-5,
+.col-6 , .col-7 , .col-8 , .col-9 , .col-10, .col-11, .col-12 {
+    padding: 5px;
+    /* border: 1px solid; */
+} 
+
+.content {
+    text-align: center;
+}
+
